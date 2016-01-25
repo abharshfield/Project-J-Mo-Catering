@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>J-Mo Catering</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device-width, initial-scale=1.0">
+		<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<div class="wrap">
+
+			<header class="main-header clearfix">
+				<div class="content">
+					<h1 class="name"><a href="index.html">Name of Catering Company or Image of Logo HERE</a></h1>
+				<nav>
+					<ul class="main-nav">
+						<li><a href="index.html" class="selected">Home</a></li>
+						<li><a href="origins.html">Origins</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div><!--/.content/-->
+
+			</header>
+
+				<div class="primary content">
+					<h2>Welcome!</h2>
+
+				/* Fill section w/ different images that will link to other pages, small synopsis about company with link to detailed description, etc 
+				edit info below for J-Mo's FB/Twitter info*/
+
+				</div><!--/.primary/-->
+
+
+				<div class="secondary content">
+					<h2>Amazing Food!</h2>
+
+				/* Fill section w/ different images that will link to other pages, small synopsis about company with link to detailed description, etc 
+				edit info below for J-Mo's FB/Twitter info*/
+
+				</div><!--/.secondary/-->
+
+		</div><!--/.wrap/-->
+
+		<footer class="main-footer">
+			<a href="http://twitter.com"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+     		<a href="http://facebook.com/"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+      		<span> &copy; 2016 J-Mo Catering </span>	
+		</footer>
+	</body>
+</html>
