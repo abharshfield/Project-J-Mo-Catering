@@ -3,7 +3,9 @@
 	<head>
 		<title>Edison Cafe</title>
 		<meta charset="utf-8">
-		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<link href='https://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/styles.css">
@@ -12,20 +14,49 @@
 		<div class="wrap">
 
 			<header class="main-header clearfix">
+				<h1 class="name"><a href="index.html">Edison Cafe</a></h1>
 				
-					<h1 class="name"><a href="index.html">Edison Cafe(Insert Edison logo here)</a></h1>
 				<nav>
 					<ul class="main-nav">
 						<li><a href="index.html">Home</a></li>
 						<li><a href="menu.html">Menu</a></li>
 						<li><a href="aboutUs.html" class="selected">About Us</a></li>
 						<li><a href="contact.html">Comments/Questions</a></li>
-					</ul>
+					
+
+					<select> 
+					    <option value="index.html">Home</option> 
+					    <option value="menu.html">Menu</option> 
+					    <option value="aboutUs.html" class="selected">About Us</option> 
+					    <option value="contact.html">Comments/Questions</option> 
+				    </select> 
+					</ul>	
 				</nav>
 				
 			</header>
 
-			<div class="push"></div><!--/.push/-->
+
+			<div class="primary content">
+					<h2>Our Passion Is Food!!!</h2>
+
+					<p>
+						Lorem ipsum dolor sit amet, odio laoreet mattis felis wisi pellentesque id, justo ante porta ut, in et, dui vel lorem commodo, egestas pellentesque nullam sem. Integer nulla. Aenean scelerisque donec non, porta mauris tortor nulla eros vestibulum sit, diam molestie, ut tempor in dui ullamcorper lacinia velit, dictum enim quam vel id. Ad lacus laoreet donec, eleifend ac pede, aliquam ultricies nullam ut, dui varius wisi in amet. Consectetuer fringilla, nulla quis in mauris libero, at sem eget dui sit. Metus ligula interdum, in dis voluptatem aliquet suspendisse semper. Dui sed egestas suscipit, nulla consectetuer dictumst sed egestas, pulvinar in ut reprehenderit pretium sollicitudin nibh. Vivamus fringilla morbi felis. Enim turpis et nec egestas morbi erat, placerat tincidunt lectus nibh dictum tincidunt nec, vestibulum orci auctor justo id, risus laoreet eu congue et mauris ac. Mauris consectetuer nulla id tincidunt velit, pretium convallis commodo pellentesque odio. Ut adipiscing conubia dui, wisi nulla vulputate dignissim in turpis amet.
+					</p>
+				
+				</div><!--/.primary/-->
+
+				<div class="secondary content">
+					<h2>Find Us Below!!!</h2>
+					<p>729 E Washington St, Louisville, KY 40202</p>
+					<div id="map"></div>
+					<script src="scripts/maps.js"></script>
+					<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXjGqZITClKAHn7lxCPRhB9xyWGs4MieY&callback=initMap" type="text/javascript"></script>
+
+
+				</div><!--/.secondary/-->
+
+
+
 		</div><!--/.wrap/-->
 
 		<footer class="main-footer">
@@ -33,5 +64,9 @@
      		<a href="http://facebook.com/"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
       		<span> &copy; 2016 Edison Cafe </span>	
 		</footer>
+
+			<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+			<script src="js/mobile-drop.js" type="text/javascript" charset="utf-8"></script>
+
 	</body>
 </html>
